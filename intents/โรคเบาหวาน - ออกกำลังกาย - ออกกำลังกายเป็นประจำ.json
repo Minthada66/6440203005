@@ -1,0 +1,63 @@
+{
+  "id": "a8a3c18e-b6ca-490b-9f4a-cbd315ac7f55",
+  "parentId": "8d9c22a7-9f55-41f5-b0e8-69b8b8ff7e1f",
+  "rootParentId": "580380b3-b372-4005-a910-a5de8dc0bd24",
+  "name": "โรคเบาหวาน - ออกกำลังกาย - ออกกำลังกายเป็นประจำ",
+  "auto": true,
+  "contexts": [
+    "--followup-6"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": ".-custom.-1-custom.--custom.--custom.-BMI-custom.--custom.--custom.--custom",
+      "affectedContexts": [
+        {
+          "name": "--followup-7",
+          "lifespan": 2
+        },
+        {
+          "name": "---followup-6",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "line",
+          "title": "คุณแพ้อาหารหรือไม่ชอบอาหารอะไรบ้าง?",
+          "replies": [
+            "ไม่แพ้อาหารใด ๆ",
+            "ไข่",
+            "นมวัว",
+            "ถั่วเปลือกแข็ง",
+            "อาหารทะเล"
+          ],
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

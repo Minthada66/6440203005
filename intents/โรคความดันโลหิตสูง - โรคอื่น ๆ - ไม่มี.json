@@ -1,0 +1,58 @@
+{
+  "id": "a021be82-6273-4b15-b98e-ae1aa3616198",
+  "parentId": "c6ba9cc7-8275-40ac-a773-c64a31a00751",
+  "rootParentId": "25a8bcd5-5c93-494b-a65d-371640cb4a1b",
+  "name": "โรคความดันโลหิตสูง - โรคอื่น ๆ - ไม่มี",
+  "auto": true,
+  "contexts": [
+    "---followup-10"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": ".-custom.--custom.--40-custom.-BMI-185-custom.---custom.---custom.---custom",
+      "affectedContexts": [
+        {
+          "name": "---followup-11",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "line",
+          "title": "คุณมีอาหารที่แพ้ หรือไม่",
+          "replies": [
+            "ไม่มี",
+            "นม",
+            "อาหารทะเล",
+            "ถั่ว"
+          ],
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

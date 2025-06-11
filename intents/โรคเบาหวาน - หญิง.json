@@ -1,0 +1,57 @@
+{
+  "id": "f3a7ca65-e211-47e9-9ecb-b11584a88b3e",
+  "parentId": "fb4edb48-99bf-4c82-b27b-a936a1caaa0a",
+  "rootParentId": "580380b3-b372-4005-a910-a5de8dc0bd24",
+  "name": "โรคเบาหวาน - หญิง",
+  "auto": true,
+  "contexts": [
+    "-1-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": ".-custom.-1-custom",
+      "affectedContexts": [
+        {
+          "name": "--followup-15",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "line",
+          "title": "อายุ (ปี)",
+          "replies": [
+            "ต่ำกว่า 40 ปี",
+            "40–60 ปี",
+            "มากกว่า 60 ปี"
+          ],
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

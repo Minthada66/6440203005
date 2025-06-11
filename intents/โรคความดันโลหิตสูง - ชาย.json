@@ -1,0 +1,57 @@
+{
+  "id": "39132b5e-edea-49af-b1d3-3f5d0c804b3c",
+  "parentId": "25a8bcd5-5c93-494b-a65d-371640cb4a1b",
+  "rootParentId": "25a8bcd5-5c93-494b-a65d-371640cb4a1b",
+  "name": "โรคความดันโลหิตสูง - ชาย",
+  "auto": true,
+  "contexts": [
+    "-followup-2"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": ".-custom",
+      "affectedContexts": [
+        {
+          "name": "--followup-8",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "line",
+          "title": "อายุ (ปี)",
+          "replies": [
+            "ต่ำกว่า 40 ปี",
+            "40–60 ปี",
+            "มากกว่า 60 ปี"
+          ],
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

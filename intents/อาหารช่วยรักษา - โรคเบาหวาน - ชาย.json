@@ -1,0 +1,57 @@
+{
+  "id": "88adc07b-caf6-48bb-839b-da8f405b9dce",
+  "parentId": "5359832b-61b3-4587-865f-923e67a85b3f",
+  "rootParentId": "78ead3df-0b16-4494-8b73-920638887ffe",
+  "name": "อาหารช่วยรักษา - โรคเบาหวาน - ชาย",
+  "auto": true,
+  "contexts": [
+    "--1-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": ".-custom.--custom-2.--1-custom",
+      "affectedContexts": [
+        {
+          "name": "---followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "line",
+          "title": "อายุ (ปี)",
+          "replies": [
+            "ต่ำกว่า 40 ปี",
+            "40–60 ปี",
+            "มากกว่า 60 ปี"
+          ],
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

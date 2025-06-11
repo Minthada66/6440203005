@@ -1,0 +1,56 @@
+{
+  "id": "4f6cc643-fede-4041-a252-c03b67a0752e",
+  "parentId": "2baa8a3f-4c3b-4fdb-9e8e-842a6d8855d0",
+  "rootParentId": "78ead3df-0b16-4494-8b73-920638887ffe",
+  "name": "อาหารช่วยรักษา - โรคเบาหวาน - ระดับน้ำตาลในเลือด",
+  "auto": true,
+  "contexts": [
+    "---followup-3"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": ".-custom.--custom-2.--1-custom.---custom.---custom.--BMI-custom.---custom",
+      "affectedContexts": [
+        {
+          "name": "---followup-4",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "line",
+          "title": "คุณมีโรคประจำตัวอื่น ๆ หรือไม่?",
+          "replies": [
+            "ไม่มี",
+            "โรคไต"
+          ],
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

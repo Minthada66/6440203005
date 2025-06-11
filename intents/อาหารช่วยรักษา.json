@@ -1,0 +1,46 @@
+{
+  "id": "78ead3df-0b16-4494-8b73-920638887ffe",
+  "name": "อาหารช่วยรักษา",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "-followup-4",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "line",
+          "title": "คุณเป็นโรคอะไร?",
+          "replies": [
+            "โรคเบาหวาน",
+            "โรคความดันโลหิตสูง",
+            "โรคไขมันในเส้นเลือด"
+          ],
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,85 @@
+{
+  "id": "580380b3-b372-4005-a910-a5de8dc0bd24",
+  "name": "โรคเบาหวาน",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "โรคเบาหวาน",
+      "affectedContexts": [
+        {
+          "name": "-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "line",
+          "title": "",
+          "payload": {
+            "line": {
+              "altText": "กรุณาเลือกรายการที่สนใจ",
+              "type": "template",
+              "template": {
+                "imageAspectRatio": "rectangle",
+                "title": "แบบประเมินความเสี่ยงโรคเบาหวาน",
+                "text": "แบบทดสอบประเมินความเสี่ยงการเกิดโรคเบาหวานใน 10 ปี ข้างหน้า",
+                "imageSize": "cover",
+                "type": "buttons",
+                "thumbnailImageUrl": "https://cdn-icons-png.flaticon.com/512/4712/4712104.png",
+                "actions": [
+                  {
+                    "uri": "https://your-link.com/guide",
+                    "type": "uri",
+                    "label": "แบบประเมินความเสี่ยง"
+                  }
+                ]
+              }
+            }
+          },
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "2",
+          "platform": "line",
+          "title": "เลือกชนิดโรคเบาหวาน",
+          "replies": [
+            "ชนิดที่ 1",
+            "ชนิดที่ 2",
+            "ไม่แน่ใจ"
+          ],
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "speech": [
+            "เป็นเบาหวานชนิดไหนคะ: ชนิดที่ 1, ชนิดที่ 2 หรือไม่แน่ใจ?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

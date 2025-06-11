@@ -1,0 +1,61 @@
+{
+  "id": "8d9c22a7-9f55-41f5-b0e8-69b8b8ff7e1f",
+  "parentId": "2d958a51-91bc-4c32-94eb-c59f9d2753ad",
+  "rootParentId": "580380b3-b372-4005-a910-a5de8dc0bd24",
+  "name": "โรคเบาหวาน - โรคประจำตัว - ไม่มี",
+  "auto": true,
+  "contexts": [
+    "--followup-5"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": ".-custom.-1-custom.--custom.--custom.-BMI-custom.--custom.--custom",
+      "affectedContexts": [
+        {
+          "name": "--followup-6",
+          "lifespan": 2
+        },
+        {
+          "name": "---followup-7",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "line",
+          "title": "คุณออกกำลังกายเป็นประจำหรือไม่?",
+          "replies": [
+            "ไม่ออกกำลังกายเลย",
+            "บางครั้ง",
+            "ออกกำลังกายเป็นประจำ"
+          ],
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

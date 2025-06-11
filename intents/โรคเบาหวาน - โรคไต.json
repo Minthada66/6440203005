@@ -1,0 +1,57 @@
+{
+  "id": "768d1b66-05ef-4f52-8a54-45acffc093fc",
+  "parentId": "3a41af20-2d6e-440e-930f-4f07079d6aa0",
+  "rootParentId": "580380b3-b372-4005-a910-a5de8dc0bd24",
+  "name": "โรคเบาหวาน - โรคไต",
+  "auto": true,
+  "contexts": [
+    "------followup-5"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": ".-custom.--custom.----custom.---40--custom.-BMI-185229-custom.----custom.------custom",
+      "affectedContexts": [
+        {
+          "name": "--followup-16",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "line",
+          "title": "คุณทราบระดับน้ำตาลในเลือดล่าสุดหรือไม่?",
+          "replies": [
+            "ไม่ออกกำลังกายเลย",
+            "บางครั้ง",
+            "ออกกำลังกายเป็นประจำ"
+          ],
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

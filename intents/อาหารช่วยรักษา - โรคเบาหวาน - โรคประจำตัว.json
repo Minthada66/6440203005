@@ -1,0 +1,57 @@
+{
+  "id": "2c54e1eb-efb5-40a4-b719-9d85c2942f1f",
+  "parentId": "4f6cc643-fede-4041-a252-c03b67a0752e",
+  "rootParentId": "78ead3df-0b16-4494-8b73-920638887ffe",
+  "name": "อาหารช่วยรักษา - โรคเบาหวาน - โรคประจำตัว",
+  "auto": true,
+  "contexts": [
+    "---followup-4"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": ".-custom.--custom-2.--1-custom.---custom.---custom.--BMI-custom.---custom.---custom",
+      "affectedContexts": [
+        {
+          "name": "---followup-5",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "line",
+          "title": "คุณออกกำลังกายเป็นประจำหรือไม่?",
+          "replies": [
+            "ออกกำลังกายเป็นประจำ",
+            "บางครั้ง",
+            "ไม่ออกกำลังกายเลย"
+          ],
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

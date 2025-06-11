@@ -1,0 +1,51 @@
+{
+  "id": "c897b851-90ff-4b3c-a084-db1197da8ac2",
+  "parentId": "491ebf4a-42e3-411d-81a2-0b8230759e0c",
+  "rootParentId": "580380b3-b372-4005-a910-a5de8dc0bd24",
+  "name": "โรคเบาหวาน - ระดับน้ำตาลในเลือด ----- มากกว่า 180 mg/dL",
+  "auto": true,
+  "contexts": [
+    "--followup-13"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": ".-custom.-1-custom.--custom.--40-custom.-BMI-185229-custom-2.--custom-5",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "line",
+          "title": "คุณมีโรคประจำตัวอื่น ๆ หรือไม่?",
+          "replies": [
+            "ไม่มี",
+            "โรคไต"
+          ],
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

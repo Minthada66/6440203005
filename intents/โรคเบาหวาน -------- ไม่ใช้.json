@@ -1,0 +1,54 @@
+{
+  "id": "1e3942c1-8c8d-47e0-ac6c-1eb2e8ca5e69",
+  "parentId": "c52086d6-2f47-4d21-856f-b5f5a96c16be",
+  "rootParentId": "580380b3-b372-4005-a910-a5de8dc0bd24",
+  "name": "โรคเบาหวาน -------- ไม่ใช้",
+  "auto": true,
+  "contexts": [
+    "-BMI--25-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": ".-custom.-1-custom.--custom-2.--4060-custom-2.-BMI--25-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "line",
+          "title": "คุณทราบระดับน้ำตาลในเลือดล่าสุดหรือไม่?",
+          "replies": [
+            "ไม่ทราบ",
+            "ต่ำกว่า 100 mg/dL",
+            "100 - 125 mg/d",
+            "126 - 180 mg/dL",
+            "มากกว่า 180 mg/dL"
+          ],
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

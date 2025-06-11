@@ -1,0 +1,59 @@
+{
+  "id": "2baa8a3f-4c3b-4fdb-9e8e-842a6d8855d0",
+  "parentId": "44a7853f-8e94-4926-bb6a-ed913ea940ba",
+  "rootParentId": "78ead3df-0b16-4494-8b73-920638887ffe",
+  "name": "อาหารช่วยรักษา - โรคเบาหวาน - ไม่ใช้ยารักษา",
+  "auto": true,
+  "contexts": [
+    "--BMI-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": ".-custom.--custom-2.--1-custom.---custom.---custom.--BMI-custom",
+      "affectedContexts": [
+        {
+          "name": "---followup-3",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "line",
+          "title": "คุณทราบระดับน้ำตาลในเลือดล่าสุดหรือไม่?",
+          "replies": [
+            "ไม่ทราบ",
+            "ต่ำกว่า 100 mg/dL",
+            "100 - 125 mg/dL",
+            "126 - 180 mg/dL",
+            "มากกว่า 180 mg/dL"
+          ],
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

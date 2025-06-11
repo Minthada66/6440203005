@@ -1,0 +1,87 @@
+{
+  "id": "a1b75d19-72ac-4dae-965c-9601a78e70b1",
+  "parentId": "f3a7ca65-e211-47e9-9ecb-b11584a88b3e",
+  "rootParentId": "580380b3-b372-4005-a910-a5de8dc0bd24",
+  "name": "โรคเบาหวาน - อายุ -- 40–60 ปี --",
+  "auto": true,
+  "contexts": [
+    "--followup-15"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": ".-custom.-1-custom.--custom",
+      "affectedContexts": [
+        {
+          "name": "---40---followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "line",
+          "title": "",
+          "payload": {
+            "line": {
+              "template": {
+                "imageSize": "cover",
+                "thumbnailImageUrl": "https://cdn-icons-png.flaticon.com/512/4712/4712104.png",
+                "title": "เครื่องมือคำนวณ BMI",
+                "type": "buttons",
+                "text": "คำนวณดัชนีมวลกาย (BMI) ของคุณได้ที่นี่",
+                "imageAspectRatio": "rectangle",
+                "actions": [
+                  {
+                    "uri": "https://www.calculator.net/bmi-calculator.html",
+                    "type": "uri",
+                    "label": "คำนวณ BMI"
+                  }
+                ]
+              },
+              "type": "template",
+              "altText": "กรุณาเลือกรายการที่สนใจ"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "2",
+          "platform": "line",
+          "title": "ค่า BMI คุณเท่าไหร่",
+          "replies": [
+            "\u003c 18.5",
+            "18.5 – 22.9",
+            "23 – 24.9",
+            "≥ 25"
+          ],
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

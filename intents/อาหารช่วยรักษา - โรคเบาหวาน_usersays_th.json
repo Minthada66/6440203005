@@ -1,0 +1,28 @@
+[
+  {
+    "id": "51d0e215-1370-4f84-9ec7-498907cb7586",
+    "data": [
+      {
+        "text": "เบาหวาน",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "7952f5a7-8089-4697-9323-f7b962042eb2",
+    "data": [
+      {
+        "text": "โรคเบาหวาน",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  }
+]

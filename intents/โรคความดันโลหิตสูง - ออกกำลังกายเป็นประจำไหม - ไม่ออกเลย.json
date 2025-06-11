@@ -1,0 +1,56 @@
+{
+  "id": "c6ba9cc7-8275-40ac-a773-c64a31a00751",
+  "parentId": "0957a79a-2f96-4a04-8c80-5aabbdf2fb7d",
+  "rootParentId": "25a8bcd5-5c93-494b-a65d-371640cb4a1b",
+  "name": "โรคความดันโลหิตสูง - ออกกำลังกายเป็นประจำไหม - ไม่ออกเลย",
+  "auto": true,
+  "contexts": [
+    "---followup-9"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": ".-custom.--custom.--40-custom.-BMI-185-custom.---custom.---custom",
+      "affectedContexts": [
+        {
+          "name": "---followup-10",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "line",
+          "title": "คุณมีโรคอื่น ๆ ร่วมด้วยหรือไม่ครับ?",
+          "replies": [
+            "ไม่มี",
+            "โรคไต"
+          ],
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

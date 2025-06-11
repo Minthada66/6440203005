@@ -1,0 +1,56 @@
+{
+  "id": "5359832b-61b3-4587-865f-923e67a85b3f",
+  "parentId": "e2e80c26-ddb6-424b-a122-98f6021c660b",
+  "rootParentId": "78ead3df-0b16-4494-8b73-920638887ffe",
+  "name": "อาหารช่วยรักษา - โรคเบาหวาน - ชนิดที่ 1",
+  "auto": true,
+  "contexts": [
+    "--followup-4"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": ".-custom.--custom-2",
+      "affectedContexts": [
+        {
+          "name": "--1-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "line",
+          "title": "เพศของคุณ?",
+          "replies": [
+            "ชาย",
+            "หญิง"
+          ],
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

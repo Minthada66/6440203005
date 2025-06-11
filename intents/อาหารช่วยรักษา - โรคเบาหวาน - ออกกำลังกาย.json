@@ -1,0 +1,54 @@
+{
+  "id": "d84f8bf7-acbd-4f37-a894-eba887ecdb20",
+  "parentId": "2c54e1eb-efb5-40a4-b719-9d85c2942f1f",
+  "rootParentId": "78ead3df-0b16-4494-8b73-920638887ffe",
+  "name": "อาหารช่วยรักษา - โรคเบาหวาน - ออกกำลังกาย",
+  "auto": true,
+  "contexts": [
+    "---followup-5"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": ".-custom.--custom-2.--1-custom.---custom.---custom.--BMI-custom.---custom.---custom.---custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "line",
+          "title": "คุณแพ้อาหารหรือไม่ชอบอาหารอะไรบ้าง?",
+          "replies": [
+            "ไม่แพ้อาหารใด ๆ",
+            "ไข่",
+            "นมวัว",
+            "ถั่วเปลือกแข็ง",
+            "อาหารทะเล"
+          ],
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

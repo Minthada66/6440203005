@@ -1,0 +1,89 @@
+{
+  "id": "e2e80c26-ddb6-424b-a122-98f6021c660b",
+  "parentId": "78ead3df-0b16-4494-8b73-920638887ffe",
+  "rootParentId": "78ead3df-0b16-4494-8b73-920638887ffe",
+  "name": "อาหารช่วยรักษา - โรคเบาหวาน",
+  "auto": true,
+  "contexts": [
+    "-followup-4"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": ".-custom",
+      "affectedContexts": [
+        {
+          "name": "--followup-4",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "line",
+          "title": "",
+          "payload": {
+            "line": {
+              "template": {
+                "thumbnailImageUrl": "https://cdn-icons-png.flaticon.com/512/4712/4712104.png",
+                "type": "buttons",
+                "text": "แบบทดสอบประเมินความเสี่ยงการเกิดโรคเบาหวานใน 10 ปี ข้างหน้า",
+                "actions": [
+                  {
+                    "label": "แบบประเมินความเสี่ยง",
+                    "uri": "https://your-link.com/guide",
+                    "type": "uri"
+                  }
+                ],
+                "imageAspectRatio": "rectangle",
+                "imageSize": "cover",
+                "title": "แบบประเมินความเสี่ยงโรคเบาหวาน"
+              },
+              "type": "template",
+              "altText": "กรุณาเลือกรายการที่สนใจ"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "2",
+          "platform": "line",
+          "title": "เลือกชนิดโรคเบาหวาน",
+          "replies": [
+            "ชนิดที่ 1",
+            "ชนิดที่ 2",
+            "ไม่แน่ใจ"
+          ],
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "speech": [
+            "เป็นเบาหวานชนิดไหนคะ: ชนิดที่ 1, ชนิดที่ 2 หรือไม่แน่ใจ?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

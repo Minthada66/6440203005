@@ -1,0 +1,60 @@
+{
+  "id": "12acd7eb-06c9-44ea-8546-2b287cd7c5a1",
+  "parentId": "ee1fb27a-3435-4d0e-821d-8a072b6b5c26",
+  "rootParentId": "25a8bcd5-5c93-494b-a65d-371640cb4a1b",
+  "name": "โรคความดันโลหิตสูง - น้ำหนักส่วนสูงBMI - \u003c 18.5",
+  "auto": true,
+  "contexts": [
+    "--40-followup-2"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": ".-custom.--custom.--40-custom",
+      "affectedContexts": [
+        {
+          "name": "-BMI-185-followup-2",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "line",
+          "title": "“ค่าความดันล่าสุดของคุณ (เลือกช่วงที่ใกล้เคียงที่สุด):”",
+          "replies": [
+            "ไม่ทราบ",
+            "ต่ำกว่า 120/80 mmHg",
+            "120–129 / \u003c80 mmHg",
+            "130–139 / 80–89 mmHg",
+            "140–159 / 90–99 mmHg",
+            "มากกว่า 160/100 mmHg"
+          ],
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

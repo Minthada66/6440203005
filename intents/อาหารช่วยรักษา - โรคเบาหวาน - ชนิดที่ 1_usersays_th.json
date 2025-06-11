@@ -1,0 +1,28 @@
+[
+  {
+    "id": "3b666062-d013-4830-9e84-c7b9c2e29cc6",
+    "data": [
+      {
+        "text": "ชนิดที่ 1",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  },
+  {
+    "id": "b1b53450-bf45-4ec9-ab0e-a2f670b40166",
+    "data": [
+      {
+        "text": "ชนิดที่1",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "th",
+    "updated": 0
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "id": "0d048660-7f29-40fe-8913-50c526a1d75c",
+  "parentId": "12acd7eb-06c9-44ea-8546-2b287cd7c5a1",
+  "rootParentId": "25a8bcd5-5c93-494b-a65d-371640cb4a1b",
+  "name": "โรคความดันโลหิตสูง - ค่าความดัน - ไม่ทราบ",
+  "auto": true,
+  "contexts": [
+    "-BMI-185-followup-2"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": ".-custom.--custom.--40-custom.-BMI-185-custom",
+      "affectedContexts": [
+        {
+          "name": "---followup-8",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "line",
+          "title": "ตอนนี้คุณกำลังใช้ยาในการควบคุมความดันไหมครับ?",
+          "replies": [
+            "ไม่ใช้",
+            "ใช่"
+          ],
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

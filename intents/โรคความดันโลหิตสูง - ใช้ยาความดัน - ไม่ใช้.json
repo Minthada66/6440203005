@@ -1,0 +1,57 @@
+{
+  "id": "0957a79a-2f96-4a04-8c80-5aabbdf2fb7d",
+  "parentId": "0d048660-7f29-40fe-8913-50c526a1d75c",
+  "rootParentId": "25a8bcd5-5c93-494b-a65d-371640cb4a1b",
+  "name": "โรคความดันโลหิตสูง - ใช้ยาความดัน - ไม่ใช้",
+  "auto": true,
+  "contexts": [
+    "---followup-8"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": ".-custom.--custom.--40-custom.-BMI-185-custom.---custom",
+      "affectedContexts": [
+        {
+          "name": "---followup-9",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "line",
+          "title": "คุณออกกำลังกายเป็นประจำไหมครับ?",
+          "replies": [
+            "ไม่ออกเลย",
+            "บางครั้ง",
+            "เป็นประจำ"
+          ],
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,59 @@
+{
+  "id": "5cf95311-6eec-4f59-bb08-1a718602f9ed",
+  "parentId": "b5984a21-8420-4509-8663-07ff15f30a0b",
+  "rootParentId": "580380b3-b372-4005-a910-a5de8dc0bd24",
+  "name": "โรคเบาหวาน - น้ำหนักส่วนสูงBMI - 23 – 24.9",
+  "auto": true,
+  "contexts": [
+    "--followup-2",
+    "--40-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": ".-custom.-1-custom.--custom.--40-custom-3",
+      "affectedContexts": [
+        {
+          "name": "-BMI-23249-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "line",
+          "title": "คุณกำลังใช้ยา หรืออินซูลินในการควบคุมเบาหวานหรือไม่?",
+          "replies": [
+            "ไม่ทราบ",
+            "ใช้ยา",
+            "ใช้อินซูลิน",
+            "ทั้งยาและอินซูลิน"
+          ],
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

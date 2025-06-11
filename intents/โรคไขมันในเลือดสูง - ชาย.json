@@ -1,0 +1,59 @@
+{
+  "id": "0d52135a-6c56-45e1-bd99-78d9047ab382",
+  "parentId": "de03fd85-7b29-4d8a-b9f2-d06503845af8",
+  "rootParentId": "de03fd85-7b29-4d8a-b9f2-d06503845af8",
+  "name": "โรคไขมันในเลือดสูง - ชาย",
+  "auto": true,
+  "contexts": [
+    "-followup-3"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": ".-custom",
+      "affectedContexts": [
+        {
+          "name": "--followup-9",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "line",
+          "title": "อายุของคุณ",
+          "replies": [
+            "ต่ำกว่า 30 ปี",
+            "31–40 ปี",
+            "41–50 ปี",
+            "51–60 ปี",
+            "มากกว่า 60 ปี"
+          ],
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

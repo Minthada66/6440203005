@@ -1,0 +1,58 @@
+{
+  "id": "44a7853f-8e94-4926-bb6a-ed913ea940ba",
+  "parentId": "e5b776b7-955e-4418-bd42-4a29cb6d31c7",
+  "rootParentId": "78ead3df-0b16-4494-8b73-920638887ffe",
+  "name": "อาหารช่วยรักษา - โรคเบาหวาน - น้ำหนักส่วนสูงBMI",
+  "auto": true,
+  "contexts": [
+    "---followup-2"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": ".-custom.--custom-2.--1-custom.---custom.---custom",
+      "affectedContexts": [
+        {
+          "name": "--BMI-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "line",
+          "title": "คุณกำลังใช้ยา หรืออินซูลินในการควบคุมเบาหวานหรือไม่?",
+          "replies": [
+            "ใช้ยา",
+            "ใช้อินซูลิน",
+            "ทั้งยาและอินซูลิน",
+            "ไม่ใช้"
+          ],
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

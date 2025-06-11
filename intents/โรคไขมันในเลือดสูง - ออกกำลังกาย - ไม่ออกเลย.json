@@ -1,0 +1,59 @@
+{
+  "id": "5d4d706b-7bf3-4615-a7db-d31c3576940b",
+  "parentId": "671be6ce-9d6e-4eb7-91d8-a0a760573de1",
+  "rootParentId": "de03fd85-7b29-4d8a-b9f2-d06503845af8",
+  "name": "โรคไขมันในเลือดสูง - ออกกำลังกาย - ไม่ออกเลย",
+  "auto": true,
+  "contexts": [
+    "-BMI--followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": ".-custom.--custom.-30-custom.-BMI-185-custom.-BMI--custom",
+      "affectedContexts": [
+        {
+          "name": "---followup-12",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "line",
+          "title": "คุณมีอาหารที่แพ้ หรือไม่รับประทานหรือไม่? (เลือกได้มากกว่า 1 ข้อ)",
+          "replies": [
+            "ไม่มี",
+            "แพ้ถั่ว",
+            "แพ้นม",
+            "แพ้อาหารทะเล",
+            "ไม่กินเผ็ด"
+          ],
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

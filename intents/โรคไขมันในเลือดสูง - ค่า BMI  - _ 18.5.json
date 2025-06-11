@@ -1,0 +1,56 @@
+{
+  "id": "eaf0d865-5c28-41a4-b132-5d23a8aee1e1",
+  "parentId": "934c847d-690d-4aa9-b8d9-de758ce28d3c",
+  "rootParentId": "de03fd85-7b29-4d8a-b9f2-d06503845af8",
+  "name": "โรคไขมันในเลือดสูง - ค่า BMI  - \u003c 18.5",
+  "auto": true,
+  "contexts": [
+    "-30-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": ".-custom.--custom.-30-custom",
+      "affectedContexts": [
+        {
+          "name": "-BMI-185-followup-3",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "line",
+          "title": "เคยได้รับการวินิจฉัยว่าไขมันในเลือดสูงหรือไม่?",
+          "replies": [
+            "ใช่",
+            "ไม่แน่ใจ"
+          ],
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "th",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
